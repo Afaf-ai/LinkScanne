@@ -1,0 +1,36 @@
+# أسرار — انسخ config.example.json إلى config.json محلياً
+config.json
+
+# بيانات تدريب كبيرة (قد تحتوي نصوص تُفهم كأسرار من GitHub)
+data/*.xls
+data/*.csv
+data/*.csv.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# قواعد بيانات وذاكرة تطبيق
+*.db
+linkScanne.db
+
+# سجلات وكاش
+logs/
+vt_cache/
+sandbox/browsers/
+sandbox/jobs/
+
+# بيئة وأدوات
+.env
+.env.*
+!.env.example
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "app": {
+    "debug": true,
+    "host": "127.0.0.1",
+    "port": 5000,
+    "secret_key": "تغيير-هذا-المفتاح-للتطوير-قيمة-عشوائية-طويلة"
+  },
+  "virustotal": {
+    "enabled": true,
+    "api_key": "ab9f7a78f7f5a84d554dee9f0ef5daf982fdee47b1689ce138333cf60219f71e",
+    "cache_hours": 24
+  },
+  "weights": { "ml": 0.65, "dynamic": 0.25, "virustotal": 0.1 },
+  "thresholds": { "malicious": 0.75 },
+  "sandbox": { "timeout": 8, "playwright_browsers_path": "./sandbox/browsers" },
+  "alerts": { "threshold_count": 5, "window_seconds": 300 }
+}
